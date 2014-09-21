@@ -47,7 +47,17 @@ tapply function calls is the appended to tidyDataDf.
 After computing the average based on activities, the average based on subject is calculated via similar means.
 The return values from the tapply function calls are also appended to tidyDataDf.
 
+The column names of tidyDataDf was dynamically generated. 
+
+For the average based on activity type, it follows the following form:
+Avg <measure_column_name> for <activity_label>
+
+For the average based on subject, it follows the following form:
+Avg <measure_column_name> for subject: <subject_id>
+
+All the values in tidyDataDf is of type double.
+
 Writing tidy data frame
 ===========================
 
-The resultant tidyDataDf is then written to disk via the write.table function.
+The resultant tidyDataDf is then written to disk via the write.table function. 
