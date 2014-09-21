@@ -50,10 +50,10 @@ The return values from the tapply function calls are also appended to tidyDataDf
 The column names of tidyDataDf was dynamically generated. 
 
 For the average based on activity type, it follows the following form:
-Avg <measure_column_name> for <activity_label>
+Avg [measure_column_name] for [activity_label]
 
 For the average based on subject, it follows the following form:
-Avg <measure_column_name> for subject: <subject_id>
+Avg [measure_column_name] for subject: [subject_id]
 
 All the values in tidyDataDf is of type double.
 
