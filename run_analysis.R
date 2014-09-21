@@ -156,3 +156,5 @@ for (finalDfColName in names(finalDf)) {
 
 # Remove the placeholder column
 tidyDataDf <- tidyDataDf[ , 2:ncol(tidyDataDf)]
+
+write.table(tidyDataDf, file = 'tidyData.txt', row.names=FALSE)
