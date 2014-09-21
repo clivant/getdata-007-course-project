@@ -12,4 +12,4 @@ I then run run_analysis.R with the source function. It took quite a while for me
 Explanation of what run_analysis.R does
 ========================================
 
-Explanation of what run_analysis.R does can be found in CodeBook.md in this same github repository.
+Explanation of what run_analysis.R does can be found in **CodeBook.md** in this same github repository.
